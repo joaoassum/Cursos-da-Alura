@@ -1,0 +1,13 @@
+{
+  "name": "bytbak",
+  "version": "1.0.0",
+  "description": "Projeto do bytbak",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
+

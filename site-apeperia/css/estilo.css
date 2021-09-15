@@ -1,0 +1,45 @@
+/*
+Error: The line was indented 4 levels deeper than the previous line.
+        on line 198 of C:/Users/joaoa/Documents/Alura/site-apeperia/css/estilos.css
+
+193: /**
+194:  * Address differences between Firefox and other browsers.
+195:  *\/
+196: hr {
+197:   -webkit-box-sizing: content-box;
+198:           box-sizing: content-box;
+199:   height: 0;
+200: }
+201: 
+202: /**
+203:  * Contain overflow in all browsers.
+
+Backtrace:
+C:/Users/joaoa/Documents/Alura/site-apeperia/css/estilos.css:198
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:523:in `tree'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:527:in `tree'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:412:in `_to_tree'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:294:in `watch'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+C:/Ruby30-x64/bin/compass:23:in `load'
+C:/Ruby30-x64/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: The line was indented 4 levels deeper than the previous line.\A         on line 198 of C:/Users/joaoa/Documents/Alura/site-apeperia/css/estilos.css\A \A 193: /**\A 194:  * Address differences between Firefox and other browsers.\A 195:  */\A 196: hr {\A 197:   -webkit-box-sizing: content-box;\A 198:           box-sizing: content-box;\A 199:   height: 0;\A 200: }\A 201: \A 202: /**\A 203:  * Contain overflow in all browsers."; }
